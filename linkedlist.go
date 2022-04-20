@@ -84,6 +84,7 @@ func (l *LinkedList) Delete(pos int) {
 		count++
 	}
 }
+
 func main() {
 	l := LinkedList{}
 	l.Append(10)
