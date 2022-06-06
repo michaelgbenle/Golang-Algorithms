@@ -69,6 +69,8 @@ func priceCheck(products []string, productPrices []float32, productSold []string
 //p.id = s.professor_id left join Course c on c.id = s.course_id inner join
 //Department d on d.id = p.department_id
 
+//6)
+//Some numbers are formed with closed paths
 func closedPaths(number int32) int32 {
 	var sum int32
 	for number > 0 {
