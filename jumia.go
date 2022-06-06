@@ -65,6 +65,8 @@ func priceCheck(products []string, productPrices []float32, productSold []string
 }
 
 //5)
+//A university maintains data on professors, departments, courses, and schedules in four
+//
 // select distinct p.Name, c.Name from schedule s left join Professor p on
 //p.id = s.professor_id left join Course c on c.id = s.course_id inner join
 //Department d on d.id = p.department_id
