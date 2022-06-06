@@ -29,6 +29,7 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 //the price from the database
 //the price of each item is typed in manually
 //the method sometimes lead to errors
+//given a list of items and their correct prices
 
 func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
 	originalProducts := make(map[string]float32)
