@@ -2,7 +2,7 @@ package main
 
 import "sort"
 
-//1
+//1) A retail company
 //select id , name from customer order by name desc, id
 
 //2) A travel and tour company has two tables relating to customers
