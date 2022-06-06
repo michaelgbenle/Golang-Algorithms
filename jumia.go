@@ -4,7 +4,8 @@ import "sort"
 
 //1) A retail company maintains the data of its customers in the CUSTOMER table.
 //Write a query to print the IDs and NAMEs of the Customers, sorted by Customer.Name
-//in decending order. if two or more customers have the same
+//in decending order. if two or more customers have the same CUSTOMER.NAME, then
+//sort these by CUSTOMER.ID in ascending order
 //select id , name from customer order by name desc, id
 
 //2) A travel and tour company has two tables relating to customers
