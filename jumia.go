@@ -73,7 +73,7 @@ func priceCheck(products []string, productPrices []float32, productSold []string
 //Some numbers are formed with closed paths
 //The digits 0,4,6,9 each have one closed path and 8 has two.
 // none of the other numbers is formed with a closed path.
-//
+//Given a number, determine the total number of closed paths
 func closedPaths(number int32) int32 {
 	var sum int32
 	for number > 0 {
