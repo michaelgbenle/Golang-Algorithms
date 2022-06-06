@@ -24,7 +24,8 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 	return num
 }
 
-//there is a shop with an old style cash register
+//there is a shop with an old style cash register.
+//Rather than scanning items and pulling
 
 func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
 	originalProducts := make(map[string]float32)
