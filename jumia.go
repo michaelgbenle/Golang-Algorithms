@@ -2,14 +2,16 @@ package main
 
 import "sort"
 
-//1) A retail company maintains the data of its customers in the CUSTOMER table.
+//1)
+//A retail company maintains the data of its customers in the CUSTOMER table.
 //Write a query to print the IDs and NAMEs of the Customers, sorted by Customer.Name
 //in descending order. if two or more customers have the same CUSTOMER.NAME, then
 //sort these by CUSTOMER.ID in ascending order
 //SOLUTION
 //select id , name from customer order by name desc, id
 
-//2) A travel and tour company has two tables relating to customers
+//2)
+//A travel and tour company has two tables relating to customers
 //each tour offers a discount if a minimum number of people book at the same time.
 //Write a query to print the maximum number of  discounted tours any one family in the families table can choose from.
 //SOLUTION
@@ -17,7 +19,7 @@ import "sort"
 //as num from countries c where c.min_size <= f.family_size)
 //as tour from families f) as travel_count
 
-//3
+//3)
 //Given an array of long integers 'arr' and a number 'num'
 //iterate through the elements in the arr and
 //double the value of num whenever an element equals num.
