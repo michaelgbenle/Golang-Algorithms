@@ -10,7 +10,8 @@ import "sort"
 //as num from countries c where c.min_size <= f.family_size)
 //as tour from families f) as travel_count
 
-//Given an array of long integers
+//Given an array of long integers 'arr' and a number 'num'
+//
 
 func doubleSizeArr(arr []int64, b int64) int64 {
 	num := b
