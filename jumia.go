@@ -14,7 +14,7 @@ import "sort"
 //iterate through the elements in the arr and
 //double the value of num whenever an element equals num.
 //find the maximum possible value of num,
-//
+//Knowing that arr can be reordered before iteration.
 
 func doubleSizeArr(arr []int64, b int64) int64 {
 	num := b
