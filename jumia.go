@@ -26,7 +26,16 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 
 func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
 	originalProducts := make(map[string]float32)
-
+	var errors int32
+	for i, product := range products {
+		originalProducts[product] = productPrices[i]
+	}
+	for i, product := range productSold {
+		originalPrice := originalProducts[product]
+		if soldPrice[i] != originalPrice {
+			errors++
+		}
+	}
 	return errors
 }
 
