@@ -10,6 +10,8 @@ import "sort"
 //as num from countries c where c.min_size <= f.family_size)
 //as tour from families f) as travel_count
 
+//Given an array of long integers
+
 func doubleSizeArr(arr []int64, b int64) int64 {
 	num := b
 	sort.SliceStable(arr, func(a, b int) bool {
@@ -33,7 +35,6 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 //compare the prices to those
 //entered when each item was sold
 //determine the number of errors in selling prices
-
 func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
 	originalProducts := make(map[string]float32)
 	var errors int32
