@@ -12,7 +12,9 @@ import "sort"
 
 //Given an array of long integers 'arr' and a number 'num'
 //iterate through the elements in the arr and
-//double the value of num whenever an element equals num
+//double the value of num whenever an element equals num.
+//find the maximum possible value of num,
+//
 
 func doubleSizeArr(arr []int64, b int64) int64 {
 	num := b
