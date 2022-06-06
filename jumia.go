@@ -24,6 +24,12 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 	return num
 }
 
+func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
+	original
+
+	return errors
+}
+
 // select distinct p.Name, c.Name from schedule s left join Professor p on
 //p.id = s.professor_id left join Course c on c.id = s.course_id inner join
 //Department d on d.id = p.department_id
