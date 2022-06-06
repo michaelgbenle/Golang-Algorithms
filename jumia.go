@@ -26,8 +26,9 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 
 //there is a shop with an old style cash register.
 //Rather than scanning items and
-//the price from the database\
+//the price from the database
 //the price of each item is typed in manually
+//the method sometimes lead to errors
 
 func priceCheck(products []string, productPrices []float32, productSold []string, soldPrice []float32) int32 {
 	originalProducts := make(map[string]float32)
