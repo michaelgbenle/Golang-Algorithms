@@ -69,6 +69,7 @@ func priceCheck(products []string, productPrices []float32, productSold []string
 //tables: DEPARTMENT, PROFESSOR, COURSE, and SCHEDULE: Write a query for the
 //names of all professors and the respective courses they teach. Each row of results must
 //contain PROFESSOR.NAME, COURSE.NAME for each course that each professor teaches
+//now or in the past. The professor names may be printed in any order, but the results
 
 // select distinct p.Name, c.Name from schedule s left join Professor p on
 //p.id = s.professor_id left join Course c on c.id = s.course_id inner join
