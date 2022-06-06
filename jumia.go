@@ -7,7 +7,8 @@ import "sort"
 
 //2) A travel and tour company has two tables relating to customers
 //each tour offers a discount if a minimum number of people book at the same time.
-//Write a query to print the maximum number of  discounted tours any one family in the families table
+//Write a query to print the maximum number of  discounted tours any one family in the families table can choose from.
+//SOLUTION
 //select max (travel_count.tour) from (select (select count(*)
 //as num from countries c where c.min_size <= f.family_size)
 //as tour from families f) as travel_count
