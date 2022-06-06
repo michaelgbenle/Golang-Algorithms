@@ -37,6 +37,7 @@ func doubleSizeArr(arr []int64, b int64) int64 {
 	return num
 }
 
+//4)
 //there is a shop with an old style cash register.
 //Rather than scanning items and
 //the price from the database
