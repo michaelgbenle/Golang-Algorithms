@@ -11,7 +11,7 @@ import "sort"
 //as tour from families f) as travel_count
 
 //Given an array of long integers 'arr' and a number 'num'
-//
+//iterate through the elements in the arr
 
 func doubleSizeArr(arr []int64, b int64) int64 {
 	num := b
