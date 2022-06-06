@@ -6,7 +6,7 @@ import "sort"
 //select id , name from customer order by name desc, id
 
 //2) A travel and tour company has two tables relating to customers
-//each tour offers a discount if a minimum number of people
+//each tour offers a discount if a minimum number of people book at the same time
 //select max (travel_count.tour) from (select (select count(*)
 //as num from countries c where c.min_size <= f.family_size)
 //as tour from families f) as travel_count
