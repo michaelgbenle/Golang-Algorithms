@@ -70,6 +70,7 @@ func priceCheck(products []string, productPrices []float32, productSold []string
 //names of all professors and the respective courses they teach. Each row of results must
 //contain PROFESSOR.NAME, COURSE.NAME for each course that each professor teaches
 //now or in the past. The professor names may be printed in any order, but the results
+//must not contain duplicate rows.
 
 // select distinct p.Name, c.Name from schedule s left join Professor p on
 //p.id = s.professor_id left join Course c on c.id = s.course_id inner join
