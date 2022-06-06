@@ -3,7 +3,7 @@ package main
 import "sort"
 
 //1) A retail company maintains the data of its customers in the CUSTOMER table.
-//Write a query to print the IDs
+//Write a query to print the IDs and NAMEs of the Customers
 //select id , name from customer order by name desc, id
 
 //2) A travel and tour company has two tables relating to customers
