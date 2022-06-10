@@ -7,4 +7,5 @@ import "math"
 func catAndMouse(x int32, y int32, z int32) string {
 	po1 := math.Abs(float64(z - x))
 	po2 := math.Abs(float64(z - y))
+	if po1 <
 }
