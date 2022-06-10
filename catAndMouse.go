@@ -9,5 +9,5 @@ func catAndMouse(x int32, y int32, z int32) string {
 	po2 := math.Abs(float64(z - y))
 	if po1 < po2 {
 		return "Cat A"
-	}
+	} else if po1
 }
