@@ -11,6 +11,8 @@ func catAndMouse(x int32, y int32, z int32) string {
 		return "Cat A"
 	} else if po1 > po2 {
 		return "Cat B"
-	}else if po1 == po2{
+	} else if po1 == po2 {
 		return "Mouse C"
+	}
+	return ""
 }
