@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println(boomerang([]int{5, 9, 5, 9, 5}))
-	fmt.Println(boomerang([]int{9, 5, 9, 5, 1, 1, 1}))
-	fmt.Println(boomerang([]int{5, 6, 6, 7, 6, 3, 9}))
+// func main() {
+// 	fmt.Println(boomerang([]int{5, 9, 5, 9, 5}))
+// 	fmt.Println(boomerang([]int{9, 5, 9, 5, 1, 1, 1}))
+// 	fmt.Println(boomerang([]int{5, 6, 6, 7, 6, 3, 9}))
 	
-}
+// }
 
-func Boomerang(boo []int) int {
+func boomerang(boo []int) int {
 	var count int
 	for i := 0; i < len(boo)-2; i++ {
 		var k = i + 1
