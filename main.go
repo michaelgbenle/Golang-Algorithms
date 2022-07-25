@@ -12,6 +12,8 @@ func main() {
 	fmt.Println(leapYear(2000))
 	fmt.Println(leapYear(1521))
 	fmt.Println(rotateLeft(5, []int32{1, 2, 3, 4, 5}))
+	fmt.Println(sevenBoom([]int{1, 2, 3, 4, 5, 6, 7}))
+	fmt.Println(sevenBoom([]int{2, 6, 7, 9, 3}))
 
 }
 
