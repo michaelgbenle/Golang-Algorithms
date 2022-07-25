@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(perimeter("s", 4))
 	fmt.Println(leapYear(2000))
 	fmt.Println(leapYear(1521))
+	fmt.Println(rotateLeft(5, []int32{1, 2, 3, 4, 5}))
 
 }
 
