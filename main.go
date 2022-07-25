@@ -23,7 +23,18 @@ func main() {
 	fmt.Println(cipher("Always-Look-on-the-Bright-Side-of-Life", 5))
 	fmt.Println(cipher("A Fool and His Money Are Soon Parted.", 27))
 	fmt.Println(cipher("One should not worry over things that have already happened and that cannot be changed.", 49))
-
+	l := LinkedList{}
+	l.Append(10)
+	l.Append(25)
+	l.Append(2)
+	l.Prepend(12)
+	l.Prepend(24)
+	l.InsertAt(35, 3)
+	l.InsertAt(10, 6)
+	l.InsertAt(11, 8)
+	l.Delete(3)
+	l.Delete(5)
+	l.PrintList()
 }
 
 
