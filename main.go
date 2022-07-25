@@ -9,6 +9,8 @@ func main() {
 	fmt.Println(backToHome("EEWE"))
 	fmt.Println(perimeter("s", 7))
 	fmt.Println(perimeter("s", 4))
+	fmt.Println(leapYear(2000))
+	fmt.Println(leapYear(1521))
 
 }
 
