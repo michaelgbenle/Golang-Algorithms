@@ -19,6 +19,8 @@ func main() {
 	fmt.Println(trackTheRobot([]int{1, 0, 2, 0, 3, 0, 4, 0, 5, 0}))
 	fmt.Println(upHill(18, 20, 60))
 	fmt.Println(upHill(30, 10, 30))
+	//fmt.Println(cipher("Always-Look-on-the-Bright-Side-of-Life", 5))
+	//fmt.Println(cipher("A Fool and His Money Are Soon Parted.", 27))
 
 }
 

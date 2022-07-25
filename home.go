@@ -1,17 +1,13 @@
 package main
 
-import "fmt"
+
 
 //BACK TO HOME
 //Mubashir has started his journey from home. Given a string of directions
 //(N=North, W=West, S=South, E=East), he will walk for one minute in each
 //direction.Determine whether a set of directions will lead him back to the starting position or not.
 
-func main() {
-	
-	fmt.Println(backToHome("NEESSW"))
-	fmt.Println(backToHome("NNSSEEEWWWEW"))
-}
+
 
 func backToHome(direction string) bool {
 	vCount := int32(0)

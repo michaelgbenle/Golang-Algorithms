@@ -5,8 +5,7 @@ import "fmt"
 func main() {
 	//fmt.Println(cipher("middle-Outz", 2))
 	//fmt.Println(cipher("A friend in need is a friend indeed", 20))
-	//fmt.Println(cipher("Always-Look-on-the-Bright-Side-of-Life", 5))
-	//fmt.Println(cipher("A Fool and His Money Are Soon Parted.", 27))
+	
 	fmt.Println(cipher("One should not worry over things that have already happened and that cannot be changed.", 49))
 	//"Always-Look-on-the-Bright-Side-of-Life"
 	//"A friend in need is a friend indeed"
