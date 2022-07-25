@@ -22,6 +22,7 @@ func main() {
 	fmt.Println(trackTheRobot([]int{0, 1, 0, 2, 0, 3, 0, 4, 0, 5}))
 	fmt.Println(cipher("Always-Look-on-the-Bright-Side-of-Life", 5))
 	fmt.Println(cipher("A Fool and His Money Are Soon Parted.", 27))
+	fmt.Println(cipher("One should not worry over things that have already happened and that cannot be changed.", 49))
 
 }
 
