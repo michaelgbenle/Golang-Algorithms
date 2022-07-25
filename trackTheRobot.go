@@ -1,18 +1,12 @@
 package main
 
-import "fmt"
 
 //This robot roams around a 2D grid. It starts at (0, 0) facing
 //North.After each time it moves, the robot rotates 90 degrees
 //clockwise. Given the amount the robot has moved each time,
 //you have to calculate the robot's final position.
 
-func main() {
-	fmt.Println(trackTheRobot([]int{1, 0, 2, 0, 3, 0, 4, 0, 5, 0}))
-	fmt.Println(trackTheRobot([]int{}))
-	
-	fmt.Println(trackTheRobot([]int{0, 1, 0, 2, 0, 3, 0, 4, 0, 5}))
-}
+
 
 func trackTheRobot(dir []int) []int {
 	var result []int
