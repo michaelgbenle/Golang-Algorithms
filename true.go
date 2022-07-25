@@ -1,9 +1,6 @@
 package main
 
 
-
-
-
 func countTrue(items []bool) int {
 	var count int
 	if len(items) == 0 {
