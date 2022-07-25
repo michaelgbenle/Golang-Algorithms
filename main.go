@@ -14,6 +14,9 @@ func main() {
 	fmt.Println(rotateLeft(5, []int32{1, 2, 3, 4, 5}))
 	fmt.Println(sevenBoom([]int{1, 2, 3, 4, 5, 6, 7}))
 	fmt.Println(sevenBoom([]int{2, 6, 7, 9, 3}))
+	fmt.Println(trackTheRobot([]int{10, -10, -10, 10}))
+	fmt.Println(trackTheRobot([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}))
+	fmt.Println(trackTheRobot([]int{1, 0, 2, 0, 3, 0, 4, 0, 5, 0}))
 
 }
 
