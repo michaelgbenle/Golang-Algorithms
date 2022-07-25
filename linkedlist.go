@@ -84,21 +84,3 @@ func (l *LinkedList) Delete(pos int) {
 		count++
 	}
 }
-
-func main() {
-	l := LinkedList{}
-	l.Append(10)
-	l.Append(25)
-	l.Append(2)
-	l.Prepend(12)
-	l.Prepend(24)
-	l.InsertAt(35, 3)
-	l.InsertAt(10, 6)
-	l.InsertAt(11, 8)
-	l.Delete(3)
-	l.Delete(5)
-	// {10, nil}
-	// {10, A} {25, nil}
-	// {10, A} {25, B} {2, nil}
-	l.PrintList()
-}
