@@ -8,8 +8,7 @@ import "fmt"
 //direction.Determine whether a set of directions will lead him back to the starting position or not.
 
 func main() {
-	fmt.Println(backToHome("NENESSWW"))
-	fmt.Println(backToHome("EEWE"))
+	
 	fmt.Println(backToHome("NEESSW"))
 	fmt.Println(backToHome("NNSSEEEWWWEW"))
 }
