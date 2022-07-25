@@ -1,16 +1,6 @@
 package main
 
-import "fmt"
 
-func main() {
-	//fmt.Println(cipher("middle-Outz", 2))
-	//fmt.Println(cipher("A friend in need is a friend indeed", 20))
-	
-	fmt.Println(cipher("One should not worry over things that have already happened and that cannot be changed.", 49))
-	//"Always-Look-on-the-Bright-Side-of-Life"
-	//"A friend in need is a friend indeed"
-	//"U zlcyhx ch hyyx cm u zlcyhx chxyyx"
-}
 
 func cipher(s string, n int) string {
 	var result string
