@@ -11,14 +11,7 @@ import (
 //and a number is Evenish if the sum of all of its digits is even.If
 //a number is Oddish, return "Oddish". Otherwise, return "Evenish".
 
-func main() {
-	fmt.Println(oddishOrEvenish(43))
-	fmt.Println(oddishOrEvenish(373))
-	fmt.Println(oddishOrEvenish(55551))
-	fmt.Println(oddishOrEvenish(694))
-	fmt.Println(oddishOrEvenish(4433))
-	fmt.Println(oddishOrEvenish(211112))
-}
+
 
 func oddishOrEvenish(num int) string {
 	converted := strconv.Itoa(num)

@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 
 // func main() {
 // 	fmt.Println(boomerang([]int{5, 9, 5, 9, 5}))
