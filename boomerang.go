@@ -1,12 +1,6 @@
 package main
 
 
-// func main() {
-// 	fmt.Println(boomerang([]int{5, 9, 5, 9, 5}))
-// 	fmt.Println(boomerang([]int{9, 5, 9, 5, 1, 1, 1}))
-// 	fmt.Println(boomerang([]int{5, 6, 6, 7, 6, 3, 9}))
-	
-// }
 
 func boomerang(boo []int) int {
 	var count int
